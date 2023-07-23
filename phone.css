@@ -1,0 +1,349 @@
+@media screen and (min-width:601px) and (max-width: 1200px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    /* Navbar Section  */
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+        margin: 4px 12px;
+    }
+
+    #navbar ul {
+        margin-bottom: 12px;
+    }
+
+    #navbar ul li a {
+        font-size: 1.1rem;
+        padding: 3px 14px;
+
+    }
+
+    /* Home Section  */
+
+    #home {
+        height: 670px;
+    }
+
+
+    #home h1 {
+        margin: 14px;
+    }
+
+    #home p {
+        color: white;
+        font-size: 1rem;
+    }
+
+    /* Services Section  */
+    #service {
+        margin: 28px;
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 27px;
+        margin: 7px 5px;
+    }
+
+    .box img {
+        width: 250px;
+        height: 150px;
+        margin: 6px auto;
+    }
+
+    /* Media Section  */
+
+    #media .media-items {
+        padding: 20px;
+    }
+
+    #media .media-items img {
+        height: 80px;
+    }
+
+    /* Footer  */
+
+    footer {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    /* Utility class  */
+    .h-primary {
+        font-size: 2rem;
+    }
+
+    .btn {
+        padding: 9px 14px;
+        margin: 12px;
+        font-size: 1rem;
+
+    }
+
+    .btn:hover {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+@media screen and (min-width:416px) and (max-width:600px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        position: relative;
+
+    }
+
+    /* Navbar Section  */
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+        margin: 4px 12px;
+    }
+
+    #navbar ul {
+        margin-bottom: 10px;
+    }
+
+    #navbar ul li a {
+        font-size: 0.9rem;
+        padding: 3px 7px;
+
+    }
+
+    /* Home Section  */
+
+    #home {
+        height: 670px;
+    }
+
+
+    #home h1 {
+        margin: 5px;
+    }
+
+    #home p {
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    /* Services Section  */
+    #service {
+        margin: 12px;
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 20px;
+        margin: 7px 5px;
+    }
+
+    .box img {
+        width: 200px;
+        height: 100px;
+        margin: 4px auto;
+    }
+
+    .box p {
+        font-size: 1rem;
+    }
+
+    /* Media Section  */
+
+    #media {
+        flex-wrap: wrap;
+    }
+
+    #media .media-items {
+        padding: 7px;
+    }
+
+    #media .media-items img {
+        height: 50px;
+    }
+
+    .form-group input, .form-group textarea {
+        font-size: 0.8rem;
+        padding: 0.4rem;
+    }
+
+    /* Footer  */
+
+    footer {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    /* Utility class  */
+    .h-primary {
+        font-size: 1.8rem;
+    }
+
+    .h-secondary {
+        font-size: 1.3rem;
+        padding: 4px;
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 5px 12px;
+        margin: 5px;
+        font-size: 0.7rem;
+
+    }
+
+    .btn:hover {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+@media screen and (max-width:415px) {
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        position: relative;
+
+    }
+
+    /* Navbar Section  */
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+        margin: 4px 12px;
+    }
+
+    #navbar ul {
+        margin-bottom: 10px;
+    }
+
+    #navbar ul li a {
+        font-size: 0.9rem;
+        padding: 3px 7px;
+
+    }
+
+    /* Home Section  */
+
+    #home {
+        height: 670px;
+        padding: 6px 150px;
+    }
+
+    #home h1 {
+        margin: 0px;
+    }
+
+    #home p {
+        color: white;
+        font-size: 0.7rem;
+    }
+
+    /* Services Section  */
+    #service {
+        margin: 12px;
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 20px;
+        margin: 7px 5px;
+    }
+
+    .box img {
+        width: 200px;
+        height: 100px;
+        margin: 4px auto;
+    }
+
+    .box p {
+        font-size: 1rem;
+    }
+
+    /* Media Section  */
+
+    #media {
+        flex-wrap: wrap;
+    }
+
+    #media .media-items {
+        padding: 5px;
+    }
+
+    #media .media-items img {
+        height: 50px;
+    }
+
+    .form-group input, .form-group textarea {
+        font-size: 0.7rem;
+        padding: 0.4rem;
+    }
+
+    /* Footer  */
+
+    footer {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    /* Utility class  */
+    .h-primary {
+        font-size: 1.7rem;
+    }
+
+    .h-secondary {
+        font-size: 1.2rem;
+        padding: 4px;
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .btn {
+        padding: 5px 12px;
+        margin: 5px;
+        font-size: 0.7rem;
+
+    }
+
+    .btn:hover {
+        font-size: 0.9rem;
+    }
+
+}
